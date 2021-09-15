@@ -38,9 +38,9 @@ while True:
 
 
 ### Evidence
-Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
 
-### Wiring
+<img src="https://github.com/Jhouse53/CircuitPython/blob/main/IMG_1004.gif?raw=true" alt="Neopixel light up" width="300">
+
 Just need a board.
 
 ### Reflection
