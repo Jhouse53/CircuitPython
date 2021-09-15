@@ -39,7 +39,7 @@ while True:
 
 ### Evidence
 
-<img src="https://github.com/Jhouse53/CircuitPython/blob/main/IMG_1004.gif?raw=true" alt="Neopixel light up" width="300">
+<img src="https://github.com/Jhouse53/CircuitPython/blob/main/GIF%20and%20Images/IMG_1004.gif?raw=true" alt="Neopixel light up" width="300">
 
 Just need a board.
 
