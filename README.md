@@ -69,7 +69,7 @@ angle = 90
 
 ### Evidence
 
-<img src="https://github.com/Jhouse53/CircuitPython/blob/main/GIF%20and%20Images/ServoGIF.gif?raw=true" alt="Neopixel light up" width="300">
+<img src="https://github.com/Jhouse53/CircuitPython/blob/main/GIF%20and%20Images/capTouchServoGIF.gif?raw=true" alt="Neopixel light up" width="300">
 
 ### Wiring
 
