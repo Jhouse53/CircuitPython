@@ -81,6 +81,8 @@ while True:
 
 ### Wiring
 
+<img src="https://github.com/Jhouse53/CircuitPython/blob/main/GIF%20and%20Images/SimpleServo%20Ciruit.PNG?raw=true" width="300">
+
 ### Reflection
 This took me a while but I eventualy got it.
 
