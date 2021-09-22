@@ -85,12 +85,25 @@ This took me a while but I eventualy got it.
 ### Description & Code
 
 ```python
-Code goes here
-
+ if distance >= 5 and distance < 20:
+            red = int(simpleio.map_range(distance, 5, 20, 255, 0))
+            blue = int(simpleio.map_range(distance, 5, 20, 0, 255))
+            green = int(simpleio.map_range(distance, 5, 20, 0, 0))
+        if distance >= 20 and distance < 35:
+            red = int(simpleio.map_range(distance, 20, 35, 0, 0))
+            blue = int(simpleio.map_range(distance, 20, 35, 255, 0))
+            green = int(simpleio.map_range(distance, 20, 35, 0, 255))
+        print(red,green,blue)
+        dot.fill((red, green, blue))
 ```
 
 ### Evidence
+<img src="https://github.com/inovotn04/CircuitPython/raw/main/Images/DistanceSensorEvidence.gif?raw=true" width="300">
 
+Source:
+Ian github
+
+https://github.com/inovotn04/CircuitPython/blob/main/README.md
 ### Wiring
 
 ### Reflection
