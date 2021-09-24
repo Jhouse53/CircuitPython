@@ -80,7 +80,7 @@ This took me a while but I eventualy got it.
 
 
 
-## CircuitPython_LCD
+## CircuitPython_UtraSonicSensor
 
 ### Description & Code
 
