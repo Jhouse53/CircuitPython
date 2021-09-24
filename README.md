@@ -105,9 +105,9 @@ Ian github
 
 https://github.com/inovotn04/CircuitPython/blob/main/README.md
 ### Wiring
-
+<img src="https://github.com/Jhouse53/CircuitPython/blob/main/GIF%20and%20Images/UltraSonicSensor%20wiring.PNG?raw=true" width="400">
 ### Reflection
-
+I had a lot of problems with this one. There was random bugs that would fix themselves and it was really hard to get the distance function to work with the colors. If not for the hint on the canvas page I would have gotton stuck for a long time.
 
 
 
