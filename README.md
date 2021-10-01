@@ -112,12 +112,31 @@ I had a lot of problems with this one. There was random bugs that would fix them
 
 
 
-## NextAssignment
+## CircuitPython Photointerrupters
 
 ### Description & Code
 
 ```python
-Code goes here
+intertupter_pin = digitalio.DigitalInOut(board.D8)
+intertupter_pin.switch_to_input
+intertupter_pin.pull = digitalio.Pull.UP
+
+counter = 0
+photo = False
+state = False
+max = 4
+
+while True:
+    photo = intertupter_pin.value
+    if photo and not state:
+        counter += 1
+        print(str(counter))
+    state = photo
+    remaining = max - time.monotonic()
+    if remaining <= 0:
+        print(str(counter))
+        max = time.monotonic() + 4
+        counter = 0
 
 ```
 
