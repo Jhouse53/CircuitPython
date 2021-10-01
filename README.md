@@ -115,6 +115,8 @@ I had a lot of problems with this one. There was random bugs that would fix them
 ## CircuitPython Photointerrupters
 
 ### Description & Code
+I had no clue how to start this found I gethub from CHS student that I used for the code
+https://github.com/gventre04/CircuitPython
 
 ```python
 intertupter_pin = digitalio.DigitalInOut(board.D8)
@@ -137,7 +139,6 @@ while True:
         print(str(counter))
         max = time.monotonic() + 4
         counter = 0
-
 ```
 
 ### Evidence
