@@ -145,5 +145,5 @@ while True:
 
 ### Wiring
 <img src="https://github.com/jmuss07/Circuit-Python/raw/main/Images/Photointerrupter.PNG?raw=true" width="400">
-
+Image Credit https://github.com/jmuss07/Circuit-Python/raw/main/Images/Photointerrupter.PNG?raw=true
 ### Reflection
