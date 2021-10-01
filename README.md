@@ -112,7 +112,7 @@ I had a lot of problems with this one. There was random bugs that would fix them
 
 
 
-## CircuitPython Photointerrupters
+##Photointerrupters
 
 ### Description & Code
 I had no clue how to start this found I gethub from CHS student that I used for the code
@@ -144,5 +144,6 @@ while True:
 ### Evidence
 
 ### Wiring
+<img src="https://github.com/jmuss07/Circuit-Python/raw/main/Images/Photointerrupter.PNG?raw=true" width="400">
 
 ### Reflection
