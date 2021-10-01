@@ -142,13 +142,18 @@ while True:
 ```
 
 ### Evidence
+
 <img src="https://github.com/jmuss07/Circuit-Python/blob/main/Images/Photointerrupter_GIF.gif?raw=true" width="400">
 
 <img src="https://github.com/jmuss07/Circuit-Python/blob/main/Images/Photointerrupter_Code_GIF.gif?raw=true" width="400">
-Image Credits https://github.com/jmuss07/Circuit-Python
+
+Image Credit goes to [Josie Muss](https://github.com/jmuss07/Circuit-Python)
+
 
 ### Wiring
 <img src="https://github.com/jmuss07/Circuit-Python/raw/main/Images/Photointerrupter.PNG?raw=true" width="400">
-Image Credit https://github.com/jmuss07/Circuit-Python/raw/main/Images/Photointerrupter.PNG?raw=true
+
+Image Credit goes to [Josie Muss](https://github.com/jmuss07/Circuit-Python)
+
 
 ### Reflection
