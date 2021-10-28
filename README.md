@@ -44,8 +44,7 @@ while True:
 Just need a board.
 
 ### Reflection
-This was pretty easy once I remebered how to code in Python.
-
+This was not that much of a challenge I could have done it an easier way looking back. But this was just the way I came up with that moment.
 
 
 
@@ -76,7 +75,7 @@ angle = 90
 <img src="https://github.com/Jhouse53/CircuitPython/blob/main/GIF%20and%20Images/SimpleServo%20Ciruit.PNG?raw=true" width="300">
 
 ### Reflection
-This took me a while but I eventualy got it.
+This took me a while but I eventualy got it. I had a little trouble doing figuring out pwm. Once I understood the touch stuff and pwm it was easy from there.
 
 
 
@@ -101,13 +100,13 @@ This took me a while but I eventualy got it.
 <img src="https://github.com/inovotn04/CircuitPython/raw/main/Images/DistanceSensorEvidence.gif?raw=true" width="300">
 
 Source:
-Ian github
+[Ian github](https://github.com/inovotn04/CircuitPython/blob/main/README.md)
 
-https://github.com/inovotn04/CircuitPython/blob/main/README.md
 ### Wiring
 <img src="https://github.com/Jhouse53/CircuitPython/blob/main/GIF%20and%20Images/UltraSonicSensor%20wiring.PNG?raw=true" width="400">
+
 ### Reflection
-I had a lot of problems with this one. There was random bugs that would fix themselves and it was really hard to get the distance function to work with the colors. If not for the hint on the canvas page I would have gotton stuck for a long time.
+I had a lot of problems with this one. There was random bugs that would fix themselves and it was really hard to get the distance function to work with the colors. If not for the hint on the canvas page I would have gotton stuck for a long time. Even after that I still had some problems but with the help of some classmates I got it.
 
 
 
@@ -115,8 +114,7 @@ I had a lot of problems with this one. There was random bugs that would fix them
 ##Photointerrupters
 
 ### Description & Code
-I had no clue how to start this found I gethub from CHS student that I used for the code
-https://github.com/gventre04/CircuitPython
+I had no clue how to start this found I [github](https://github.com/gventre04/CircuitPython)from CHS student that I used for the code
 
 ```python
 intertupter_pin = digitalio.DigitalInOut(board.D8)
@@ -157,3 +155,4 @@ Image Credit goes to [Josie Muss](https://github.com/jmuss07/Circuit-Python)
 
 
 ### Reflection
+I dind't ge this at all but with the help of the github stated earlier I actually understood how to do it and could get it done with some of their code. I still had some problems with it but with some review from classmates I got it.
