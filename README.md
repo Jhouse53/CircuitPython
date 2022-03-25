@@ -111,7 +111,7 @@ I had a lot of problems with this one. There was random bugs that would fix them
 
 
 
-##Photointerrupters
+## Photointerrupters
 
 ### Description & Code
 I had no clue how to start this found I [github](https://github.com/gventre04/CircuitPython)from CHS student that I used for the code
@@ -156,3 +156,71 @@ Image Credit goes to [Josie Muss](https://github.com/jmuss07/Circuit-Python)
 
 ### Reflection
 I dind't ge this at all but with the help of the github stated earlier I actually understood how to do it and could get it done with some of their code. I still had some problems with it but with some review from classmates I got it.
+
+
+
+
+## LCD 
+
+### Description 
+For LCD I needed to use two wires to control a set of numbers on a LCD screen one of the wires had to change the number and the other had to change whether or not the number moved up or down. To do that I used touchio and had a counter variable that would be added to by a different variable that would either be positive or negative depending on if the wire was hit. I got help from [Josie Muss](https://github.com/jmuss07/Circuit-Python#CircuitPython_LCD) for making sure that the wires didn't work when you were holding them down.
+
+```python
+
+import board
+import time
+import touchio
+from lcd.lcd import LCD
+from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
+
+# get and i2c object
+i2c = board.I2C()
+
+# some LCDs are 0x3f... some are 0x27.
+lcd = LCD(I2CPCF8574Interface(i2c, 0x27), num_rows=2, num_cols=16)
+
+touchA0 = touchio.TouchIn(board.A0)
+touchA4 = touchio.TouchIn(board.A4)
+
+# The variable that will show up on the screen
+Counter = 0
+# The variable that determinds if it goes up or down
+Switch = 1
+# Booleans that makes sure that holding down the button doesn't increase the value.
+# Got the idea from Jmuss07
+SwitchB = 0
+CounterB = 0
+
+while True:
+    if touchA0.value and SwitchB == 0:
+        # Turns Switch value from positive to negative and vise versa 
+        Switch = -Switch
+        print("Touched A0")
+        
+    SwitchB = touchA0.value
+    
+    if Switch <= 0 and touchA4.value and CounterB == 0:
+        print("Touched A4")
+        lcd.clear()
+        lcd.set_cursor_pos(0, 0)
+        # Increases Counter value by the negative or positive Switch
+        Counter += Switch
+        lcd.print(str(Counter))
+    CounterB = touchA4.value
+    
+    if Switch >= 0 and touchA4.value and CounterB == 0:
+        print("Touched A4")
+        lcd.set_cursor_pos(0, 0)
+        Counter += Switch
+        lcd.print(str(Counter))
+```
+
+### Wiring
+<img src="https://github.com/jmuss07/Circuit-Python/raw/main/Images/LCD.PNG?raw=true" width="400">
+
+Image Credit [Josie Muss](https://github.com/jmuss07/Circuit-Python#CircuitPython_LCD) 
+
+###Evidence
+<img src="https://github.com/jmuss07/Circuit-Python/raw/main/Images/LCD.PNG?raw=true" width="400">
+
+Image Credit [Iam Novotn](https://github.com/inovotn04/CircuitPython/raw/main/Images/LCDGif.gif?raw=true)
