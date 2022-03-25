@@ -220,7 +220,7 @@ while True:
 
 Image Credit [Josie Muss](https://github.com/jmuss07/Circuit-Python#CircuitPython_LCD) 
 
-###Evidence
-<img src="https://github.com/jmuss07/Circuit-Python/raw/main/Images/LCD.PNG?raw=true" width="400">
+### Evidence
+<img src="https://github.com/inovotn04/CircuitPython/raw/main/Images/LCDGif.gif?raw=true" width="400">
 
 Image Credit [Iam Novotn](https://github.com/inovotn04/CircuitPython/raw/main/Images/LCDGif.gif?raw=true)
